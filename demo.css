@@ -1,0 +1,204 @@
+@media screen and (max-width: 618px) {
+    #conteneur {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+    .milieu {
+        order: 1;
+    }
+    .droite1 {
+        order: 2;
+    }
+}
+
+header {
+    background: #ff5555;
+    width: 1000px;
+    height: 973px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#conteneur {
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.gauche {
+    background: #5585ff;
+    width: 500pxs;
+    height: 450px;
+}
+
+.milieu {
+    background: #336699;
+    width: 380px;
+    height: 959px;
+    background-image: url("johana.jpg");
+    background-size: 400px 230px;
+    background-repeat: no-repeat;
+    background-color: #336699;
+    float: left;
+}
+
+#head {
+    background: white;
+    height: 40px;
+    width: 355px;
+    margin-left: 10px;
+    display: flex;
+}
+
+#im1 {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+#im2 {
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    margin-left: 270px;
+    margin-top: -39px;
+}
+
+#im3 {
+    width: 85px;
+    height: 85px;
+    margin-left: 30px;
+    margin-top: 70px;
+    clip-path: ellipse(50% 50%);
+}
+
+#im4 {
+    width: 50px;
+    height: 50px;
+    margin-left: 310px;
+    margin-top: -10px;
+    clip-path: ellipse(50% 50%);
+}
+
+#im5 {
+    margin-left: 15px;
+    margin-top: -15px;
+    background-color: #336699;
+}
+
+#im6 {
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: #336699;
+}
+
+#im7 {
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: #336699;
+    border: none;
+}
+
+#im8 {
+    margin-left: 15px;
+    margin-top: 17px;
+    background-color: #336699;
+    border: none;
+}
+
+#g_text {
+    color: gray;
+    margin-top: -30px;
+    margin-left: 75px;
+}
+
+#g_text1 {
+    color: gray;
+    margin-top: -50px;
+    margin-left: 300px;
+    font-size: 22px;
+}
+
+#g_text2 {
+    color: white;
+    margin-top: -60px;
+    margin-left: 140px;
+    font-size: 25px;
+}
+
+#g_text3 {
+    color: white;
+    margin-top: -45px;
+    margin-left: 315px;
+    font-size: 25px;
+}
+
+#g_text4 {
+    color: rgba(255, 255, 255, 0.637);
+    margin-top: -60px;
+    margin-left: 80px;
+    font-size: 14px;
+}
+
+#g_text5 {
+    color: rgba(255, 255, 255, 0.637);
+    margin-top: -55px;
+    margin-left: 80px;
+    font-size: 14px;
+}
+
+#g_text6,
+#g_text7 {
+    color: rgba(255, 255, 255, 0.637);
+    margin-top: -55px;
+    margin-left: 80px;
+    font-size: 14px;
+}
+
+#g_text8 {
+    color: rgba(255, 255, 255, 0.637);
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+#subi {
+    color: rgba(255, 255, 255, 0.76);
+    margin-left: 135px;
+    margin-top: -33px;
+}
+
+#ligne {
+    width: 296px;
+    margin-left: 80px;
+    margin-top: -10px;
+    color: rgb(126, 143, 243);
+    border-color: rgb(126, 143, 243);
+}
+
+#ligne1,
+#ligne2 {
+    width: 296px;
+    margin-left: 80px;
+    margin-top: -5px;
+    color: rgb(126, 143, 243);
+    border-color: rgb(126, 143, 243);
+}
+
+#ligne3 {
+    width: 82px;
+    margin-top: -3px;
+    margin-left: 1px;
+    color: rgb(226, 17, 17);
+    border-color: rgb(226, 17, 17);
+    text-align: left;
+}
+
+#jorge {
+    display: flex;
+}
